@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 
 // Images
 import info3 from '../../assets/images/info-3.avif';
+import info4 from '../../assets/images/info-4.jpg';
+import info5 from '../../assets/images/info-5.jpg';
+import info6 from '../../assets/images/info-6.jpg';
 
 function Info() {
   return (
@@ -43,7 +46,11 @@ function Info() {
             <p class="mb-4">Happy customers are the reason we're still in business and it's a fulfilling feeling knowing we play a role in helping our local community sleep well.</p>
         </div>
         <div class="mt-4 w-full flex items-center justify-center">
-            <img class="w-2/3 h-48 rounded-lg object-cover" src={info3} alt="office content 1"></img>  
+            <img class="w-3/4 h-72 rounded-lg object-cover" src={info6} alt="office content 1"></img>  
+        </div>
+        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400 mt-5">
+            <p class="mb-4">So don't stay up too late reading about mattresses! Stop by 805 Mattress Pros today to try out a brand new mattress - it could change your life!</p>
+            
         </div>
     </div>
 </section>
