@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Third Party Imports
 
@@ -9,28 +9,29 @@ import MattressesPage from './pages/MattressesPage/MattressesPage';
 import MeetStevePage from './pages/MeetStevePage/MeetStevePage';
 import ContactPage from './pages/ContactPage/ContactPage';
 
+import ErrorPage from './pages/ErrorPage/ErrorPage';
+
 function App() {
   return (
     <Router>
-      <div className='app'>
-
+      <div className="app">
         <Routes>
           <Route path="/contact" element={<ContactPage/>}></Route>
-        </Routes>
+       
 
-        <Routes>
+
           <Route path="/meet-steve" element={<MeetStevePage/>}></Route>
-        </Routes>
+       
 
-        <Routes>
+     
           <Route path="/mattresses" element={<MattressesPage/>}></Route>
-        </Routes>
+        
 
-        {/* Homepage (Default Route stays at bottom) */}
-        <Routes>
-          <Route path="/" element={<HomePage/>}></Route>
+          <Route path="*" element={<ErrorPage />} />
+          
+          {/* Homepage (Default Route stays at bottom) */}
+          <Route path="/" element={<HomePage />} />
         </Routes>
-
       </div>
     </Router>
   );
