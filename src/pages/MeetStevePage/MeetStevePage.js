@@ -1,14 +1,18 @@
+import React from 'react';
+
 // Components
-import Message from "../../components/MeetSteve/Message/Message";
-import Navbars from "../../components/Navbar/Navbar";
+import NavBar from '../../components/Navbar/Navbar';
+import Message from '../../components/MeetSteve/Message/Message';
+import Footer from '../../components/Footer/Footer';
 
 function MeetStevePage() {
   return (
     <div>
-        <Navbars/>
-        <Message/>
+      <NavBar />
+      <Message />
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default MeetStevePage;

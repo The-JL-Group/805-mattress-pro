@@ -1,3 +1,5 @@
+import React from 'react';
+
 // Components
 import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Header/Banner/Banner';
@@ -17,7 +19,7 @@ function HomePage() {
       <OurMattress />
       <Vendors />
       <Info />
-      <Testimonials/>
+      <Testimonials />
       <Footer />
     </div>
   );

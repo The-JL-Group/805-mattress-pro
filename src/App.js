@@ -16,19 +16,10 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/contact" element={<ContactPage/>}></Route>
-       
-
-
-          <Route path="/meet-steve" element={<MeetStevePage/>}></Route>
-       
-
-     
-          <Route path="/mattresses" element={<MattressesPage/>}></Route>
-        
-
+          <Route path="/contact" element={<ContactPage />}></Route>
+          <Route path="/meet-steve" element={<MeetStevePage />}></Route>
+          <Route path="/mattresses" element={<MattressesPage />}></Route>
           <Route path="*" element={<ErrorPage />} />
-          
           {/* Homepage (Default Route stays at bottom) */}
           <Route path="/" element={<HomePage />} />
         </Routes>

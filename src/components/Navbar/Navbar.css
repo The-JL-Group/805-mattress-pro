@@ -1,22 +1,19 @@
 .navbar__phone {
   display: flex;
-
 }
 
-  /* Media Query */
-  @media screen and (max-width: 767px) {
-  
-    .nav-list {
-      position: absolute;
-      width: 97%;
-      background: rgba(220, 220, 220, 0.9);
-      transform: translateY(-160%);
-      transition: 0.5s ease-in;
-      z-index: -1000;
-     
-    }
-
-    .nav-active {
-      transform: translateY(65%);
-    }
+/* Media Query */
+@media screen and (max-width: 767px) {
+  .nav-list {
+    position: absolute;
+    width: 97%;
+    background: rgba(220, 220, 220, 0.9);
+    transform: translateY(-160%);
+    transition: 0.5s ease-in;
+    z-index: -1000;
   }
+
+  .nav-active {
+    transform: translateY(65%);
+  }
+}

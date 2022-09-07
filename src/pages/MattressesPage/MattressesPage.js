@@ -1,14 +1,20 @@
+import React from 'react';
+
 // Components
-import Navbars from "../../components/Navbar/Navbar";
-import TopInfo from "../../components/Mattresses/TopInfo/TopInfo";
+import NavBar from '../../components/Navbar/Navbar';
+import TopInfo from '../../components/Mattresses/TopInfo/TopInfo';
+import BottomInfo from '../../components/Mattresses/BottomInfo/BottomInfo';
+import Footer from '../../components/Footer/Footer';
 
 function MattressesPage() {
   return (
     <div>
-        <Navbars/>
-        <TopInfo/>
+      <NavBar />
+      <TopInfo />
+      <BottomInfo />
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default MattressesPage;

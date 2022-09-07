@@ -11,9 +11,9 @@ import './Banner/Banner';
 function Header() {
   return (
     <div>
-        <Banner/>
+      <Banner />
     </div>
-  )
+  );
 }
 
 export default Header;

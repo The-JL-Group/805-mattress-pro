@@ -7,7 +7,7 @@ import vendor4 from '../../assets/images/vendor-4.png';
 function Vendors() {
   return (
     <section>
-      <div className="bg-ltGry px-6 py-16 sm:p-16">
+      <div className="bg-gray-50 px-6 py-16 sm:p-16">
         <div className="max-w-xl mx-auto lg:max-w-none">
           <div className="max-w-sm mx-auto grid grid-cols-1 gap-y-10 gap-x-8 sm:max-w-none lg:grid-cols-4">
             <div className="sm:flex-shrink-0">
