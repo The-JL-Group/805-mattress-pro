@@ -13,7 +13,7 @@ import Footer from '../../components/Footer/Footer';
 
 function HomePage() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Navbar />
       <Banner />
       <Incentives />

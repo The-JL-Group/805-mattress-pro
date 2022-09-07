@@ -9,7 +9,7 @@ import Footer from '../../components/Footer/Footer';
 
 function MattressesPage() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <NavBar />
       <TopInfo />
       <BottomInfo />
