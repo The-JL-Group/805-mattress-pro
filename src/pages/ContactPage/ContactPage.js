@@ -6,7 +6,7 @@ import Footer from '../../components/Footer/Footer';
 
 function ContactPage() {
   return (
-    <div className='overflow-x-hidden'>
+    <div>
       <NavBar />
       <Contact />
       <CTA />
