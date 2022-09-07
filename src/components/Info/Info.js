@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+// Stylesheets
+import 'aos/dist/aos.css';
+
+// Third Party Imports
+import Aos from 'aos';
+
 // Images
+import info1 from '../../assets/images/info-1.jpg';
+import info2 from '../../assets/images/info-2.jpg';
 import info3 from '../../assets/images/info-3.avif';
-import info4 from '../../assets/images/info-4.jpg';
-import info5 from '../../assets/images/info-5.jpg';
 import info6 from '../../assets/images/info-6.jpg';
 
 function Info() {
+
+  useEffect(() => {
+    // 2 second animation completeness
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <section class="bg-white dark:bg-gray-900">
       <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
@@ -33,14 +45,16 @@ function Info() {
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
           <img
+            data-aos="fade-down"
             class="w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-            alt="office content 1"
+            src={info1}
+            alt=""
           ></img>
           <img
+            data-aos="fade-up"
             class="mt-4 w-full lg:mt-10 rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-            alt="office content 2"
+            src={info2}
+            alt=""
           ></img>
         </div>
       </div>
@@ -71,6 +85,7 @@ function Info() {
         </div>
         <div class=" gap-4 mt-4 w-full ">
           <img
+            data-aos="fade-right"
             class="w-5/6 h-48 rounded-lg object-cover"
             src={info3}
             alt="office content 1"
@@ -115,7 +130,12 @@ function Info() {
           </p>
         </div>
         <div class="mt-4 w-full flex items-center justify-center">
-            <img class="w-3/4 h-72 rounded-lg object-cover" src={info6} alt="office content 1"></img>  
+            <img 
+              data-aos="fade-left"
+              class="w-3/4 h-72 rounded-lg object-cover" 
+              src={info6} 
+              alt="office content 1">
+            </img>  
         </div>
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400 mt-5">
             <p class="mb-4">So don't stay up too late reading about mattresses! Stop by 805 Mattress Pros today to try out a brand new mattress - it could change your life!</p>

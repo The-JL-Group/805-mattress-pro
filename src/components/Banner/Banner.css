@@ -13,11 +13,13 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background-color: var(--red); */
+    background-color: var(--red);
     color: white;
-    width: 100%;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    width: 70%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: .8rem;
 }
 
 .banner__cta {
@@ -29,6 +31,27 @@
     color: white;
 }
 
+/* Max Width */
+@media (max-width: 366px) {
+    .banner__title {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 0.3rem;
+        padding-bottom: .3rem;
+        color: white;
+    }
+
+    .banner__cta {
+        display: flex;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+}
+
+/* Min Width */
 @media (min-width: 400px) {
 
     .banner__cta {
