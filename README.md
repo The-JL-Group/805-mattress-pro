@@ -62,5 +62,6 @@ npm run start
 
 ## Deployment
 
-[Deployed on Vercel]()
+[Deployed on Vercel](https://805-mattress-pro.vercel.app/)
+<br>
 [Deployed on GoDaddy]()
