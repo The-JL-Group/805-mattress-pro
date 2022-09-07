@@ -8,7 +8,7 @@ import Footer from '../../components/Footer/Footer';
 
 function MeetStevePage() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <NavBar />
       <Message />
       <CTA />
