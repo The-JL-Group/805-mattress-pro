@@ -51,7 +51,7 @@ function Navbars() {
           <a href="tel:805-522-1344" className="hover:text-red">
             <div className="navbar__phone xxs:hidden">
               <BsTelephone className="h-11" />
-              <p className=" px-5 py-2.5 text-center mr-3 md:mr-0">
+              <p className="text-2xl px-5 py-2.5 text-center mr-3 md:mr-0">
                 805-522-1344
               </p>
             </div>
