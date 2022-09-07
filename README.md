@@ -2,7 +2,9 @@
 
 
 ## Description
+A local mattress store with the best quality and service in Ventura County! 
 
+This build was created with React and utilizes a tailwind-centric UI. 
 
 ## Table of Contents
 
