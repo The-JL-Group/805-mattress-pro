@@ -41,6 +41,7 @@ npm run start
 ## Visuals
 
 - Wireframe on Figma
+![Screen Shot 2022-09-06 at 9 28 38 PM (2)](https://user-images.githubusercontent.com/100983245/188768746-0ed83a3b-54d6-43a5-a9c3-23808ca802d2.png)
 
 
 - Finished Project
