@@ -2,12 +2,11 @@ import React from 'react';
 
 // Components
 import Ratings from './Ratings/Ratings';
-
 function Testimonials() {
   return (
     <section class="relative pt-24 pb-32 overflow-hidden">
         <div class="container mx-auto px-4">
-            <h2 class="mb-5 max-w-2xl mx-auto font-heading font-bold text-center text-6xl sm:text-7xl text-gray-900">A Community of Happy Customers!</h2>
+            <h2 class="mb-5 max-w-2xl mx-auto font-heading font-bold text-center text-4xl text-gray-900">A Community of Happy Customers!</h2>
             <p class="mb-10 text-base max-w-md mx-auto text-center text-gray-600">We have an entire community of happy customers and a 5 star rating on Yelp. But don't just take it from us!</p>
             
             <Ratings/>

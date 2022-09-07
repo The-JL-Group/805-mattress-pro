@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+// Stylesheets
+import 'aos/dist/aos.css';
+
+// Third Party Imports
+import Aos from 'aos';
+
+// Components
 import { incentives } from './data';
 
 function Incentives() {
+
   return (
     <div>
         <div class="bg-white">
-            <div class="  ">
-                <div class="bg-gray-50 rounded-2xl px-6 py-16 sm:p-16">
+            <div>
+                <div class="bg-gray-50 px-6 py-16 sm:p-16">
                     <div class="max-w-xl mx-auto lg:max-w-none">
                         <div class="text-center">
                         <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">We built our business on customer service</h2>

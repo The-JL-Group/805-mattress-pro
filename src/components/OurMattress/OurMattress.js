@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+// Stylesheets
+import 'aos/dist/aos.css';
+
+// Third Party Imports
+import Aos from 'aos';
+
+// Components
 import mattressDiscount from '../../assets/images/mattress-discount.png';
 import mattressQuality from '../../assets/images/mattress-quality.png';
 import mattressBest from '../../assets/images/mattress-best.png';
 
 function OurMattress() {
+
+  useEffect(() => {
+    // 2 second animation completeness
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
     <section className="bg-white">
       <div className=" items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
@@ -23,7 +37,9 @@ function OurMattress() {
         <div>
           <div className="grid gap-5 place-content-center md:grid-cols-3">
             {/* Mattress Discount Card */}
-            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
+            <div 
+              className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
+              >
               <img
                 className="rounded-t-lg bg-drGry"
                 src={mattressDiscount}
@@ -46,7 +62,9 @@ function OurMattress() {
             </div>
 
             {/* Mattress Quality Card */}
-            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
+            <div 
+              className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
+            >
               <img
                 className="rounded-t-lg bg-drGry"
                 src={mattressQuality}
@@ -72,7 +90,9 @@ function OurMattress() {
             </div>
 
             {/* Mattress Best Card */}
-            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
+            <div 
+              className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
+              >
               <img
                 className="rounded-t-lg bg-drGry"
                 src={mattressBest}
