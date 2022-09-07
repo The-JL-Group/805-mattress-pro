@@ -6,14 +6,25 @@
 @media screen and (max-width: 767px) {
   .nav-list {
     position: absolute;
-    width: 97%;
-    background: rgba(220, 220, 220, 0.9);
+    width: 100%;
+    background: white;
     transform: translateY(-160%);
     transition: 0.5s ease-in;
     z-index: -1000;
+    right: 0px;
   }
 
   .nav-active {
-    transform: translateY(65%);
+    transform: translateY(62.2%);
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .navbar__phone {
+    display: none;
+  }
+
+  .nav-active {
+    transform: translateY(61.2%);
   }
 }

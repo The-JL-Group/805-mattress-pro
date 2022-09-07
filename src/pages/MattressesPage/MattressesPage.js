@@ -4,6 +4,7 @@ import React from 'react';
 import NavBar from '../../components/Navbar/Navbar';
 import TopInfo from '../../components/Mattresses/TopInfo/TopInfo';
 import BottomInfo from '../../components/Mattresses/BottomInfo/BottomInfo';
+import CTA from '../../components/CTA/CTA';
 import Footer from '../../components/Footer/Footer';
 
 function MattressesPage() {
@@ -12,6 +13,7 @@ function MattressesPage() {
       <NavBar />
       <TopInfo />
       <BottomInfo />
+      <CTA />
       <Footer />
     </div>
   );

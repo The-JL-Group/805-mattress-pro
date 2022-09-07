@@ -1,4 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+// Stylesheets
+import 'aos/dist/aos.css';
+
+// Third Party Imports
+import Aos from 'aos';
 
 // Images
 import meetSteve1 from '../../../assets/images/meet-steve-1.jpg';
@@ -10,8 +16,13 @@ const stats = [
 ];
 
 function Message() {
+  useEffect(() => {
+    // 2 second animation completeness
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
-    <div className="relative bg-white py-16 sm:py-24">
+    <div className="relative bg-white py-16 sm:py-24" data-aos="fade-right">
       <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
         <div className="relative sm:py-16 lg:py-0">
           <div
@@ -58,7 +69,7 @@ function Message() {
               <img
                 className="absolute inset-0 h-full w-full object-cover"
                 src={meetSteve1}
-                alt=""
+                alt="meet steve"
               />
               <div className="absolute inset-0 bg-stone-500 mix-blend-multiply" />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-600 via-stone-600 opacity-40" />
