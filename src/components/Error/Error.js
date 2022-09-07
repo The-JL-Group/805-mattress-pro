@@ -7,27 +7,8 @@ import {
   mdiAccountOutline,
   mdiPhoneOutline,
 } from '@mdi/js';
-import { useNavigate } from 'react-router-dom';
 
 function Error() {
-  let navigate = useNavigate();
-
-  function HomeLink() {
-    navigate('/');
-  }
-
-  function MattressLink() {
-    navigate('/mattress');
-  }
-
-  function SteveLink() {
-    navigate('/steve');
-  }
-
-  function ContactLink() {
-    navigate('/contact');
-  }
-
   return (
     <div className="flex items-center justify-center min-h-screen bg-white py-48">
       <div className="flex flex-col">
@@ -50,8 +31,8 @@ function Error() {
 
           <div className="flex flex-col items-stretch mt-5">
             {/* <!-- Nav Item #1 --> */}
-            <div
-              onClick={HomeLink}
+            <a
+              href="/"
               className="flex flex-row group px-4 py-8
                     border-t hover:cursor-pointer
                     transition-all duration-200 delay-100"
@@ -86,11 +67,11 @@ function Error() {
                 size={1}
                 className="text-gray-400 mdi-24px my-auto pr-2 group-hover:text-gray-700 transition-all duration-200 delay-100"
               />
-            </div>
+            </a>
 
             {/* <!-- Nav Item #2 --> */}
-            <div
-              onClick={MattressLink}
+            <a
+              href="/mattresses"
               className="flex flex-row group px-4 py-8
                     border-t hover:cursor-pointer
                     transition-all duration-200 delay-100"
@@ -125,11 +106,11 @@ function Error() {
                 size={1}
                 className="text-gray-400 mdi-24px my-auto pr-2 group-hover:text-gray-700 transition-all duration-200 delay-100"
               />
-            </div>
+            </a>
 
             {/* <!-- Nav Item #3 --> */}
-            <div
-              onClick={SteveLink}
+            <a
+              href="/meet-steve"
               className="flex flex-row group px-4 py-8
                     border-t hover:cursor-pointer
                     transition-all duration-200 delay-100"
@@ -164,11 +145,11 @@ function Error() {
                 size={1}
                 className="text-gray-400 mdi-24px my-auto pr-2 group-hover:text-gray-700 transition-all duration-200 delay-100"
               />
-            </div>
+            </a>
 
             {/* <!-- Nav Item #4 --> */}
-            <div
-              onClick={ContactLink}
+            <a
+              href="/contact"
               className="flex flex-row group px-4 py-8
                     border-t hover:cursor-pointer
                     transition-all duration-200 delay-100"
@@ -203,7 +184,7 @@ function Error() {
                 size={1}
                 className="text-gray-400 mdi-24px my-auto pr-2 group-hover:text-gray-700 transition-all duration-200 delay-100"
               />
-            </div>
+            </a>
           </div>
         </div>
       </div>

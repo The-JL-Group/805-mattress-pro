@@ -6,14 +6,14 @@ import './Header.css';
 // Third Party Imports
 
 // Components
-import './Banner/Banner';
+import Banner from './Banner/Banner';
 
 function Header() {
   return (
     <div>
-        <Banner/>
+      <Banner />
     </div>
-  )
+  );
 }
 
 export default Header;

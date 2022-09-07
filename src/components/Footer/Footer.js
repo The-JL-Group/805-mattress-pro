@@ -62,7 +62,7 @@ function Footer() {
 
             {/* Google Review */}
             <a
-              href="https://www.google.com/search?q=805mattresspros&rlz=1C5CHFA_enUS999US999&oq=805mattresspros&aqs=chrome..69i57j46i13i175i199j0i390l2j69i60l3.2565j0j7&sourceid=chrome&ie=UTF-8#lrd=0x80e82e948da55b05:0xe2af8b59d1548153,1,,,"
+              href="https://www.google.com/search?rlz=1C5CHFA_enUS999US999&sxsrf=ALiCzsa5nA8ZqS9-lN499GmKLRAfI5BfcQ:1662505286200&q=805+mattress+pros&spell=1&sa=X&ved=2ahUKEwiImpXoooH6AhUkmWoFHbyhBvgQBSgAegQIARA2&cshid=1662505289394074&biw=1920&bih=944&dpr=1#lrd=0x80e82e948da55b05:0xe2af8b59d1548153,1,,,"
               target="_blank"
               rel="noreferrer"
               className="mr-6 text-white"
@@ -165,7 +165,10 @@ function Footer() {
 
               {/* Email Icon */}
 
-              <p className="flex items-center justify-center align-center mb-4">
+              <a
+                href="mailto:1mattresspros@gmail.com"
+                className="flex items-center justify-center align-center mb-4"
+              >
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -182,10 +185,13 @@ function Footer() {
                   ></path>
                 </svg>
                 1mattresspros@gmail.com
-              </p>
+              </a>
 
               {/* Phone Icon */}
-              <p className="flex items-center justify-center align-center mb-4">
+              <a
+                href="tel:805-522-1344"
+                className="flex items-center justify-center align-center mb-4"
+              >
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -202,7 +208,7 @@ function Footer() {
                   ></path>
                 </svg>
                 (805) 522-1344
-              </p>
+              </a>
             </div>
 
             {/* Hours */}
@@ -210,34 +216,36 @@ function Footer() {
               <h6 className="uppercase font-semibold mb-4">Hours</h6>
 
               <table>
-                <tr>
-                  <td className="">Monday</td>
-                  <td>10AM-5PM</td>
-                </tr>
-                <tr>
-                  <td>Tuesday</td>
-                  <td>10AM-5PM</td>
-                </tr>
-                <tr>
-                  <td>Wednesday</td>
-                  <td>10AM-5PM</td>
-                </tr>
-                <tr>
-                  <td>Thursday</td>
-                  <td>10AM-5PM</td>
-                </tr>
-                <tr>
-                  <td>Friday</td>
-                  <td>10AM-4PM</td>
-                </tr>
-                <tr>
-                  <td>Saturday</td>
-                  <td>10AM-4PM</td>
-                </tr>
-                <tr>
-                  <td>Sunday</td>
-                  <td>12PM-4PM</td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <td className="">Monday</td>
+                    <td>10AM-5PM</td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday</td>
+                    <td>10AM-5PM</td>
+                  </tr>
+                  <tr>
+                    <td>Wednesday</td>
+                    <td>10AM-5PM</td>
+                  </tr>
+                  <tr>
+                    <td>Thursday</td>
+                    <td>10AM-5PM</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>10AM-4PM</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday</td>
+                    <td>10AM-4PM</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday</td>
+                    <td>12PM-4PM</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
 
@@ -247,25 +255,25 @@ function Footer() {
                 Pages
               </h6>
               <p className="mb-2 md:mb-4">
-                <a href="#!">Home</a>
+                <a href="/">Home</a>
               </p>
               <p className="mb-2 md:mb-4">
-                <a href="#!">Mattresses</a>
+                <a href="/mattresses">Mattresses</a>
               </p>
               <p className="mb-2 md:mb-4">
-                <a href="#!">Meet Steve</a>
+                <a href="/meet-steve">Meet Steve</a>
               </p>
               <p>
-                <a href="#!">Contact</a>
+                <a href="/contact">Contact</a>
               </p>
             </div>
           </div>
         </div>
 
-        <div class="text-center p-3 md:p-6 bg-red">
+        <div className="text-center p-3 md:p-6 bg-red">
           <span>© 2022 Copyright: </span>
           <a
-            class="text-white font-semibold"
+            className="text-white font-semibold"
             href="https://tailwind-elements.com/"
           >
             805 Mattress Pro

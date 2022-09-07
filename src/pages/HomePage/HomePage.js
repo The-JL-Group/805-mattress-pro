@@ -1,3 +1,5 @@
+import React from 'react';
+
 // Components
 import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Banner/Banner';
@@ -13,13 +15,13 @@ function HomePage() {
   return (
     <div>
       <Navbar />
-      <Banner/>
+      <Banner />
       <Incentives />
       <OurMattress />
       <Vendors />
       <Info />
-      <Testimonials/>
-      <CTA/>
+      <Testimonials />
+      <CTA />
       <Footer />
     </div>
   );
