@@ -7,9 +7,8 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 
 // Images
-
-import mattresses3 from '../../../assets/images/mattresses-3.avif';
-import mattresses4 from '../../../assets/images/mattresses-4.avif';
+import mattresses10 from '../../../assets/images/mattresses-10.avif';
+import mattresses16 from '../../../assets/images/mattresses-16.avif';
 
 function TopInfo() {
   useEffect(() => {
@@ -38,7 +37,7 @@ function TopInfo() {
             <div>
               <div className="w-full aspect-w-3 aspect-h-2 h-60 rounded-lg overflow-hidden">
                 <img
-                  src={mattresses3}
+                  src={mattresses10}
                   alt="Drawstring top with elastic loop closure and textured interior padding."
                   className="w-full h-full object-center object-cover"
                 ></img>
@@ -65,7 +64,7 @@ function TopInfo() {
             </div>
             <div>
               <div className="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden h-60">
-                <img src={mattresses4} alt="mattress 4"></img>
+                <img src={mattresses16} alt="mattress 4"></img>
               </div>
               <p className="mt-8 text-base text-gray-500">
                 During parts of the year, we also hold special limited time
