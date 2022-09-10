@@ -3,9 +3,6 @@ import React, { useState } from 'react';
 // Stylesheets
 import './Navbar.css';
 
-// Third Party Imports
-import { Navbar, Button } from 'flowbite-react';
-
 // Icons
 import { BsTelephone } from 'react-icons/bs';
 
