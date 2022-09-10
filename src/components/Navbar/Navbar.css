@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 366px) {
+@media screen and (max-width: 525px) {
   .navbar__phone {
     display: none;
   }
