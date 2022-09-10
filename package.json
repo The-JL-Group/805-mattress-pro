@@ -1,5 +1,6 @@
 {
   "name": "805-mattress-pro",
+  "homepage": "https://www.805mattresspro.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

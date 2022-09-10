@@ -5,6 +5,9 @@ import mattresses6 from '../../../assets/images/mattresses-6.jpeg';
 import mattresses7 from '../../../assets/images/mattresses-7.jpeg';
 import mattresses8 from '../../../assets/images/mattresses-8.jpeg';
 import mattresses9 from '../../../assets/images/mattresses-9.jpeg';
+import mattresses10 from '../../../assets/images/mattresses-10.png';
+import mattresses13 from '../../../assets/images/mattresses-13.png';
+import mattresses14 from '../../../assets/images/mattresses-14.png';
 
 function BottomInfo() {
   return (
@@ -75,24 +78,24 @@ function BottomInfo() {
           </div>
           <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
             <img
-              src={mattresses5}
+              src={mattresses10}
               alt="Mattress 1"
-              className="bg-gray-100 rounded-lg"
+              className="bg-gray-100 rounded-lg w-full h-72"
+            />
+            <img
+              src={mattresses13}
+              alt="Mattress 2"
+              className="bg-gray-100 rounded-lg w-full h-72"
+            />
+            <img
+              src={mattresses14}
+              alt="Mattress 3"
+              className="bg-gray-100 rounded-lg w-full h-72"
             />
             <img
               src={mattresses9}
-              alt="Mattress 2"
-              className="bg-gray-100 rounded-lg"
-            />
-            <img
-              src={mattresses7}
-              alt="Mattress 3"
-              className="bg-gray-100 rounded-lg"
-            />
-            <img
-              src={mattresses6}
               alt="Mattress 4"
-              className="bg-gray-100 rounded-lg"
+              className="bg-gray-100 rounded-lg w-full h-72"
             />
           </div>
         </div>

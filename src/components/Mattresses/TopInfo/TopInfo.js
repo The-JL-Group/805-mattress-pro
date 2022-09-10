@@ -11,7 +11,10 @@ import mattresses1 from '../../../assets/images/mattresses-1.jpg';
 import mattresses2 from '../../../assets/images/mattresses-2.jpg';
 import mattresses3 from '../../../assets/images/mattresses-3.png';
 import mattresses4 from '../../../assets/images/mattresses-4.jpeg';
-import mattresses5 from '../../../assets/images/mattresses-5.jpeg';
+
+import mattresses11 from '../../../assets/images/mattresses-11.png';
+import mattresses12 from '../../../assets/images/mattresses-12.png';
+
 
 function TopInfo() {
   useEffect(() => {
@@ -40,7 +43,7 @@ function TopInfo() {
             <div>
               <div className="w-full aspect-w-3 aspect-h-2 h-60 rounded-lg overflow-hidden">
                 <img
-                  src={mattresses3}
+                  src={mattresses12}
                   alt="Drawstring top with elastic loop closure and textured interior padding."
                   className="w-full h-full object-center object-cover"
                 ></img>
@@ -67,7 +70,7 @@ function TopInfo() {
             </div>
             <div>
               <div className="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden h-60">
-                <img src={mattresses4} alt="mattress 4"></img>
+                <img src={mattresses11} alt="mattress 4"></img>
               </div>
               <p className="mt-8 text-base text-gray-500">
                 During parts of the year, we also hold special limited time

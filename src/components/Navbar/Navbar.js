@@ -10,9 +10,7 @@ import { Navbar, Button } from 'flowbite-react';
 import { BsTelephone } from 'react-icons/bs';
 
 // Images
-import logo from '../../assets/logo/Logo.png';
-import logo2 from '../../assets/logo/Logo-2.png';
-import logo3 from '../../assets/logo/Logo-3.png';
+import logo5 from '../../assets/logo/805MattressPro.png';
 
 function Navbars() {
   // Navbar Toggle
@@ -39,8 +37,8 @@ function Navbars() {
         {/* Navbar Logo */}
         <a href="/" className="flex items-center z-20">
           <img
-            src={logo3}
-            className="mr-3 h-20"
+            src={logo5}
+            className="mr-3 h-10"
             alt="805 Mattress Pro logo"
           ></img>
         </a>
