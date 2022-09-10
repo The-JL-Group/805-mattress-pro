@@ -11,7 +11,7 @@ import Aos from 'aos';
 import { BsPhoneVibrate } from 'react-icons/bs';
 
 // Images
-import banner from '../../assets/images/banner.png';
+import banner from '../../assets/images/banner.avif';
 
 function Banner() {
   useEffect(() => {
@@ -33,7 +33,7 @@ function Banner() {
           className="banner__cta inline-block px-3 pb-2.5 pt-3 bg-red text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out content-center flex justify-center items-center text-center"
         >
           <BsPhoneVibrate className="mr-3" />
-          <span className='banner__ctaText'>Call Steve</span>
+          <span className="banner__ctaText">Call Steve</span>
         </a>
       </div>
     </div>

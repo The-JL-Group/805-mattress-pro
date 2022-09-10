@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 
 // Images
-import meetSteve1 from '../../../assets/images/meet-steve-1.jpg';
+import meetSteve1 from '../../../assets/images/meet-steve-1.avif';
 
 // Stats
 const stats = [
