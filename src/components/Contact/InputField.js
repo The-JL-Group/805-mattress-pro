@@ -1,5 +1,5 @@
 function InputField(props) {
-  const { handleChange, label, name, value } = props;
+  const { handleChange, label, name } = props;
 
   return (
     <div className="relative mb-4">

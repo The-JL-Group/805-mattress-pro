@@ -1,11 +1,9 @@
 import React from 'react';
 
-
 import mattresses5 from '../../../assets/images/mattresses-5.avif';
 import mattresses6 from '../../../assets/images/mattresses-6.avif';
 import mattresses7 from '../../../assets/images/mattresses-7.avif';
 import mattresses9 from '../../../assets/images/mattresses-9.avif';
-
 
 function BottomInfo() {
   return (
@@ -76,17 +74,17 @@ function BottomInfo() {
           </div>
           <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
             <img
-              src={mattresses10}
+              src={mattresses5}
               alt="Mattress 1"
               className="bg-gray-100 rounded-lg w-full h-72"
             />
             <img
-              src={mattresses13}
+              src={mattresses6}
               alt="Mattress 2"
               className="bg-gray-100 rounded-lg w-full h-72"
             />
             <img
-              src={mattresses14}
+              src={mattresses7}
               alt="Mattress 3"
               className="bg-gray-100 rounded-lg w-full h-72"
             />

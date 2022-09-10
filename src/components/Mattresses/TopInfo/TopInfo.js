@@ -11,7 +11,6 @@ import Aos from 'aos';
 import mattresses3 from '../../../assets/images/mattresses-3.avif';
 import mattresses4 from '../../../assets/images/mattresses-4.avif';
 
-
 function TopInfo() {
   useEffect(() => {
     // 2 second animation completeness
@@ -39,7 +38,7 @@ function TopInfo() {
             <div>
               <div className="w-full aspect-w-3 aspect-h-2 h-60 rounded-lg overflow-hidden">
                 <img
-                  src={mattresses12}
+                  src={mattresses3}
                   alt="Drawstring top with elastic loop closure and textured interior padding."
                   className="w-full h-full object-center object-cover"
                 ></img>
@@ -66,7 +65,7 @@ function TopInfo() {
             </div>
             <div>
               <div className="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden h-60">
-                <img src={mattresses11} alt="mattress 4"></img>
+                <img src={mattresses4} alt="mattress 4"></img>
               </div>
               <p className="mt-8 text-base text-gray-500">
                 During parts of the year, we also hold special limited time
