@@ -1,13 +1,11 @@
 import React from 'react';
 
-import mattresses5 from '../../../assets/images/mattresses-5.jpeg';
-import mattresses6 from '../../../assets/images/mattresses-6.jpeg';
-import mattresses7 from '../../../assets/images/mattresses-7.jpeg';
-import mattresses8 from '../../../assets/images/mattresses-8.jpeg';
-import mattresses9 from '../../../assets/images/mattresses-9.jpeg';
-import mattresses10 from '../../../assets/images/mattresses-10.png';
-import mattresses13 from '../../../assets/images/mattresses-13.png';
-import mattresses14 from '../../../assets/images/mattresses-14.png';
+
+import mattresses5 from '../../../assets/images/mattresses-5.avif';
+import mattresses6 from '../../../assets/images/mattresses-6.avif';
+import mattresses7 from '../../../assets/images/mattresses-7.avif';
+import mattresses9 from '../../../assets/images/mattresses-9.avif';
+
 
 function BottomInfo() {
   return (
