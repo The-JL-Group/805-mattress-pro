@@ -10,7 +10,7 @@ import Aos from 'aos';
 import info1 from '../../assets/images/info-1.png';
 import info2 from '../../assets/images/info-2.png';
 import info3 from '../../assets/images/info-3.png';
-import info6 from '../../assets/images/info-6.jpg';
+import info6 from '../../assets/images/info-6.png';
 
 function Info() {
   useEffect(() => {
