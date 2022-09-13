@@ -7,8 +7,8 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 
 // Images
-import mattresses10 from '../../../assets/images/mattresses-10.avif';
-import mattresses16 from '../../../assets/images/mattresses-16.avif';
+import mattresses10 from '../../../assets/images/mattresses-10.jpg';
+import mattresses16 from '../../../assets/images/mattresses-16.jpg';
 
 function TopInfo() {
   useEffect(() => {
