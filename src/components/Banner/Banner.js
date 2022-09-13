@@ -11,7 +11,7 @@ import Aos from 'aos';
 import { BsPhoneVibrate } from 'react-icons/bs';
 
 // Images
-import banner from '../../assets/images/banner.avif';
+import banner from '../../assets/images/banner.png';
 
 function Banner() {
   useEffect(() => {

@@ -7,10 +7,10 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 
 // Images
-import info1 from '../../assets/images/info-1.avif';
-import info2 from '../../assets/images/info-2.avif';
-import info3 from '../../assets/images/info-3.avif';
-import info6 from '../../assets/images/info-6.avif';
+import info1 from '../../assets/images/info-1.png';
+import info2 from '../../assets/images/info-2.png';
+import info3 from '../../assets/images/info-3.png';
+import info6 from '../../assets/images/info-6.jpg';
 
 function Info() {
   useEffect(() => {
