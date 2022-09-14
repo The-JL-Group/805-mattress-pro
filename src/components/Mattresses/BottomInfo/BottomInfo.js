@@ -16,7 +16,7 @@ function BottomInfo() {
             </h2>
             <p className="mt-4 text-gray-500">
               Finding the your perfect mattress is hard. But, here at{' '}
-              <span className="font-extrabold text-red">805 Mattress Pro</span>,
+              <span className="font-extrabold text-newRed">805 Mattress Pro</span>,
               we make that process so much{' '}
               <span className="font-extrabold">easier</span>. We have a variety
               of products that will give you the{' '}
@@ -25,21 +25,21 @@ function BottomInfo() {
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-red">Size</dt>
+                <dt className="font-medium text-newRed">Size</dt>
                 <dd className="mt-2 text-sm text-gray-500">
                   Twin, Full, Queen, King
                 </dd>
               </div>
 
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-red">Material</dt>
+                <dt className="font-medium text-newRed">Material</dt>
                 <dd className="mt-2 text-sm text-gray-500">
                   8" Cool Gel, 9" Galaxy Plush, and our Fuzion Pillowtop
                 </dd>
               </div>
 
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-red">Brands</dt>
+                <dt className="font-medium text-newRed">Brands</dt>
                 <dd className="mt-2 text-sm text-gray-500">
                   We only carry the best quality brands in mattresses, including
                   Primo International, Spinal Care Bedding, Leggett & Platt,
@@ -48,7 +48,7 @@ function BottomInfo() {
               </div>
 
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-red">Price</dt>
+                <dt className="font-medium text-newRed">Price</dt>
                 <dd className="mt-2 text-sm text-gray-500">
                   With limited time offers, we have the lowest prices in town.
                   We proudly serve Ventura County: Simi Valley, Thousand Oaks,
@@ -57,7 +57,7 @@ function BottomInfo() {
               </div>
 
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-red">Includes</dt>
+                <dt className="font-medium text-newRed">Includes</dt>
                 <dd className="mt-2 text-sm text-gray-500">
                   Choose from FREE local delivery or FREE heavy duty bed frame
                   or FREE cool gel pillow per purchase
@@ -65,7 +65,7 @@ function BottomInfo() {
               </div>
 
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-red">Warranty</dt>
+                <dt className="font-medium text-newRed">Warranty</dt>
                 <dd className="mt-2 text-sm text-gray-500">
                   10 year warranty on all of our products
                 </dd>

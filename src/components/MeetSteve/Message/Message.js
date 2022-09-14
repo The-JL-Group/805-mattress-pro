@@ -71,21 +71,21 @@ function Message() {
                 src={meetSteve1}
                 alt="meet steve"
               />
-              <div className="absolute inset-0 bg-stone-500 mix-blend-multiply" />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-600 via-stone-600 opacity-40" />
+              <div className="absolute inset-0 bg-stone-300 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-gradient-to-t from-stone-600 via-stone-600 opacity-0" />
               <div className="relative px-8">
                 <blockquote className="mt-8">
                   <div className="relative text-lg font-medium text-white md:flex-grow">
-                    <p className="relative">"I love mattresses"</p>
+                    <p className="relative">"I love what I do because I love this community."</p>
                   </div>
 
                   <footer className="mt-4">
                     <p className="text-base font-semibold text-stone-50">
-                      <span className="font-extrabold text-red">
+                      <span className="font-extrabold text-newRed">
                         Steve Yanello
                       </span>
                       , Owner of{' '}
-                      <span className="font-extrabold text-red">
+                      <span className="font-extrabold text-white">
                         805 Mattress Pro
                       </span>
                     </p>
@@ -99,7 +99,7 @@ function Message() {
         <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
           {/* Content area */}
           <div className="pt-12 sm:pt-16 lg:pt-20">
-            <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
+            <h2 className="text-3xl text-newRed font-extrabold tracking-tight sm:text-4xl">
               About 805 Mattress Pros
             </h2>
             <div className="mt-6 text-gray-500 space-y-6">
@@ -127,7 +127,7 @@ function Message() {
                 awesome mattress and an even better night's sleep.
               </p>
               <p className="text-base leading-7">Cheers,</p>
-              <p className="text-base leading-7">Steve Yannello</p>
+              <p className="text-base leading-7 text-newRed">Steve Yannello</p>
             </div>
           </div>
 
@@ -149,7 +149,7 @@ function Message() {
               ))}
             </dl>
             <div className="mt-10">
-              <a href="/mattresses" className="text-base font-medium text-red">
+              <a href="/mattresses" className="text-base font-medium text-newRed">
                 {' '}
                 Learn more about our comfortable mattresses{' '}
                 <span aria-hidden="true">&rarr;</span>{' '}

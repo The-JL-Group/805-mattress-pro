@@ -86,7 +86,7 @@ function ContactForm() {
         />
         <button
           type="submit"
-          className="text-white bg-red border-0 py-2 px-6 focus:outline-none hover:shadow-lg rounded text-lg"
+          className="text-white bg-newRed border-0 py-2 px-6 focus:outline-none hover:shadow-lg rounded text-lg"
         >
           Send{' '}
         </button>

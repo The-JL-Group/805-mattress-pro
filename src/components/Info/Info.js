@@ -23,7 +23,7 @@ function Info() {
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            So why is 805 Mattress Pros the best mattress store in Simi Valley?
+            So, Why is 805 Mattress Pros <span className='text-newRed'>The Best Mattress Store in Simi Valley?</span>
           </h2>
           <p className="mb-4">
             Because we understand that everyone is different when it comes to
@@ -60,7 +60,7 @@ function Info() {
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-column-start lg:py-16 lg:px-6">
         <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Online vs. In-Store: What's the Best Place to Buy a New Mattress?
+            Online vs. In-Store: What's the <span className='text-newRed'>Best Place to Buy a New Mattress?</span>
           </h2>
           <p className="mb-4">
             We may be a bit biased here, but nothing beats actually going to a
@@ -96,7 +96,7 @@ function Info() {
             or from a large chain.
           </p>
           <p className="mb-4">
-            <span className="font-bold">Why?</span>
+            <span className="font-bold text-newRed">Why?</span>
           </p>
           <p className="mb-4">
             Because we deal with smaller brands where we develop a relationship
@@ -108,13 +108,13 @@ function Info() {
           </p>
           <p className="mb-4">And that's the magic word right there.</p>
           <p className="mb-4">
-            <span className="font-bold">Reputation.</span>
+            <span className="font-bold text-newRed">Reputation.</span>
           </p>
           <p className="mb-4">
             Here at 805 Mattress Pros, our reputation is everything. We only
             carry the
             <a href="/mattresses">
-              <span className="font-bold text-sky-500 hover:underline">
+              <span className="font-bold text-newBlue hover:underline">
                 {' '}
                 best mattresses{' '}
               </span>

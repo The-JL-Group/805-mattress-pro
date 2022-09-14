@@ -5,7 +5,7 @@
 
 .banner__image {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   object-fit: cover;
   /* filter: brightness(120%); */
   /* background-image: rgba(32, 36, 220, 0.5); */
@@ -17,7 +17,7 @@
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--red);
+  background-color: var(--newRed);
   color: white;
   width: 70%;
   padding-left: 1rem;
@@ -29,10 +29,9 @@
 .banner__cta {
   display: flex;
   position: absolute;
-  top: 65%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
 }
 
 .banner__ctaText {
@@ -53,10 +52,9 @@
   .banner__cta {
     display: flex;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
   }
 }
 
