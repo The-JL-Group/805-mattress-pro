@@ -43,7 +43,7 @@ function Navbars() {
         {/* Navbar Inner Container */}
         <div className={`${toggleIcon} flex md:order-2 z-20 `}>
           {/* Navbar Phone # */}
-          <a href="tel:805-522-1344" className="hover:text-red">
+          <a href="tel:805-522-1344" className="hover:text-newRed">
             <div className="navbar__phone xxs:hidden">
               <BsTelephone className="h-11" />
               <p className="text-2xl px-5 py-2.5 text-center mr-3 md:mr-0">
@@ -84,7 +84,7 @@ function Navbars() {
           <li>
             <a
               href="/"
-              className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-red md:hover:bg-transparent md:hover:text-red md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 xxs:hover:text-white"
+              className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-newRed md:hover:bg-transparent md:hover:text-newRed md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 xxs:hover:text-white"
             >
               Home
             </a>
@@ -92,7 +92,7 @@ function Navbars() {
           <li>
             <a
               href="/mattresses"
-              className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-red md:hover:bg-transparent md:hover:text-red md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 xxs:hover:text-white"
+              className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-newRed md:hover:bg-transparent md:hover:text-newRed md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 xxs:hover:text-white"
             >
               Mattresses
             </a>
@@ -100,7 +100,7 @@ function Navbars() {
           <li>
             <a
               href="/meet-steve"
-              className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-red md:hover:bg-transparent md:hover:text-red md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 xxs:hover:text-white"
+              className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-newRed md:hover:bg-transparent md:hover:text-newRed md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 xxs:hover:text-white"
             >
               Meet Steve
             </a>
@@ -108,7 +108,7 @@ function Navbars() {
           <li>
             <a
               href="/contact"
-              className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-red md:hover:bg-transparent md:hover:text-red md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 xxs:hover:text-white"
+              className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-newRed md:hover:bg-transparent md:hover:text-newRed md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 xxs:hover:text-white"
             >
               Contact
             </a>

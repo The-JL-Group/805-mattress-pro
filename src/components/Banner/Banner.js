@@ -19,13 +19,14 @@ function Banner() {
         The Best Mattress Store in Simi Valley
       </h1>
       <div className="flex space-x-2 justify-center">
-        <button
+        <a
+          href="tel:805-522-1344"
           type="button"
-          className="banner__cta inline-block px-3 py-2.5 bg-red text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out"
+          className="banner__cta inline-block px-3 py-2.5 bg-white text-newRed font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out"
         >
           <BsPhoneVibrate className="mr-3" />
           Call Steve
-        </button>
+        </a>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="text-center lg:text-left bg-red text-white">
+    <footer className="text-center lg:text-left bg-newRed text-white">
       <div className="">
         {/* Socials Container*/}
         <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
@@ -270,7 +270,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="text-center p-3 md:p-6 bg-red">
+        <div className="text-center p-3 md:p-6 bg-newRed">
           <span>© 2022 Copyright: </span>
           <a
             className="text-white font-semibold"

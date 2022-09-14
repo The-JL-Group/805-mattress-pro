@@ -41,7 +41,7 @@ function OurMattress() {
               className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
               >
               <img
-                className="rounded-t-lg bg-drGry"
+                className="rounded-t-lg bg-newRed"
                 src={mattressDiscount}
                 alt="Mattress Discount"
               />
@@ -66,7 +66,7 @@ function OurMattress() {
               className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
             >
               <img
-                className="rounded-t-lg bg-drGry"
+                className="rounded-t-lg bg-newRed"
                 src={mattressQuality}
                 alt="Mattress Quality"
               />
@@ -94,7 +94,7 @@ function OurMattress() {
               className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
               >
               <img
-                className="rounded-t-lg bg-drGry"
+                className="rounded-t-lg bg-newRed"
                 src={mattressBest}
                 alt="Mattress Best"
               />

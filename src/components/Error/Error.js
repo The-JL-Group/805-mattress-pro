@@ -14,7 +14,7 @@ function Error() {
       <div className="flex flex-col">
         {/* <!-- Error Container --> */}
         <div className="flex flex-col items-center">
-          <div className="text-red font-bold text-7xl">404</div>
+          <div className="text-newRed font-bold text-7xl">404</div>
 
           <div className="font-bold text-3xl xl:text-7xl lg:text-6xl md:text-5xl mt-10">
             This page does not exist
@@ -38,7 +38,7 @@ function Error() {
                     transition-all duration-200 delay-100"
             >
               {/* <!-- Nav Icon --> */}
-              <div className="rounded-xl bg-red px-3 py-2 md:py-4">
+              <div className="rounded-xl bg-newRed px-3 py-2 md:py-4">
                 <Icon
                   path={mdiHomeOutline}
                   size={1}
@@ -77,7 +77,7 @@ function Error() {
                     transition-all duration-200 delay-100"
             >
               {/* <!-- Nav Icon --> */}
-              <div className="rounded-xl bg-red px-3 py-2 md:py-4">
+              <div className="rounded-xl bg-newRed px-3 py-2 md:py-4">
                 <Icon
                   path={mdiBedOutline}
                   size={1}
@@ -116,7 +116,7 @@ function Error() {
                     transition-all duration-200 delay-100"
             >
               {/* <!-- Nav Icon --> */}
-              <div className="rounded-xl bg-red px-3 py-2 md:py-4">
+              <div className="rounded-xl bg-newRed px-3 py-2 md:py-4">
                 <Icon
                   path={mdiAccountOutline}
                   size={1}
@@ -155,7 +155,7 @@ function Error() {
                     transition-all duration-200 delay-100"
             >
               {/* <!-- Nav Icon --> */}
-              <div className="rounded-xl bg-red px-3 py-2 md:py-4">
+              <div className="rounded-xl bg-newRed px-3 py-2 md:py-4">
                 <Icon
                   path={mdiPhoneOutline}
                   size={1}

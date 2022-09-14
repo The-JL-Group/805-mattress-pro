@@ -25,7 +25,7 @@ function TopInfo() {
               id="details-heading"
               className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
             >
-              Our Mattresses Can't Be Beat
+              Our Mattresses <span className='text-newRed'>Can't Be Beat</span>
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-600">
               Our walk-in and customer-friendly environment just aren't enough.
@@ -44,7 +44,7 @@ function TopInfo() {
               </div>
               <p className="mt-8 text-base text-gray-500">
                 At
-                <span className="font-extrabold text-red">
+                <span className="font-extrabold text-newRed">
                   {' '}
                   805 Mattress Pro
                 </span>
@@ -53,7 +53,7 @@ function TopInfo() {
                 <span className="font-extrabold">Full</span>,{' '}
                 <span className="font-extrabold">King</span>, and our most
                 popular <span className="font-extrabold">Queen</span> sets; All{' '}
-                <span className="font-extrabold text-red">under $800</span>.
+                <span className="font-extrabold text-newRed">under $800</span>.
                 Each set comes in three different types:{' '}
                 <span className="font-extrabold">8" Cool Gel</span>,{' '}
                 <span className="font-extrabold">9" Galaxy Plush</span>, and our{' '}
@@ -70,7 +70,7 @@ function TopInfo() {
                 During parts of the year, we also hold special limited time
                 offers for individual customers - the lowest prices in town! So
                 come in today, and choose{' '}
-                <span className="font-extrabold text-red">
+                <span className="font-extrabold text-newRed">
                   805 Mattress Pro
                 </span>{' '}
                 for your next mattress and the most down-to-earth service that
