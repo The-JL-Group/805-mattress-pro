@@ -7,7 +7,9 @@
 *,
 *::before,
 *::after {
-  --red: #d25d5d;
+  --newRed: #ea3a3a;
+  --newBlue: #4758d6;
+  --newBrg: #e1811f;
   --blk: #000000;
   --wht: #ffffff;
   --gry: #5f6369;
