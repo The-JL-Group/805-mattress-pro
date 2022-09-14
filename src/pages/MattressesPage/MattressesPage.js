@@ -11,9 +11,9 @@ function MattressesPage() {
   return (
     <div>
       <NavBar />
+      <CTA />
       <TopInfo />
       <BottomInfo />
-      <CTA />
       <Footer />
     </div>
   );
