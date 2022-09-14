@@ -8,10 +8,10 @@ import Footer from '../../components/Footer/Footer';
 
 function MeetStevePage() {
   return (
-    <div >
+    <div>
       <NavBar />
-      <Message />
       <CTA />
+      <Message />
       <Footer />
     </div>
   );

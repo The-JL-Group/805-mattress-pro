@@ -13,15 +13,15 @@ import Footer from '../../components/Footer/Footer';
 
 function HomePage() {
   return (
-    <div >
+    <div>
       <Navbar />
       <Banner />
+      <CTA />
       <Incentives />
       <OurMattress />
       <Vendors />
       <Info />
       <Testimonials />
-      <CTA />
       <Footer />
     </div>
   );

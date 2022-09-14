@@ -8,8 +8,8 @@ function ContactPage() {
   return (
     <div>
       <NavBar />
-      <Contact />
       <CTA />
+      <Contact />
       <Footer />
     </div>
   );

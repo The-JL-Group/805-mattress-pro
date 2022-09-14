@@ -5,6 +5,10 @@
 
 .banner__image {
   width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  /* filter: brightness(120%); */
+  /* background-image: rgba(32, 36, 220, 0.5); */
 }
 
 .banner__title {
@@ -33,7 +37,7 @@
 
 .banner__ctaText {
   position: relative;
-  top: 1px
+  top: 1px;
 }
 
 /* Max Width */
