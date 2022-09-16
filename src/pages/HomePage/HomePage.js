@@ -2,7 +2,7 @@ import React from 'react';
 
 // Components
 import Navbar from '../../components/Navbar/Navbar';
-import Banner from '../../components/Banner/Banner';
+import Banner from '../../components/Banner/HomeBanner/Banner';
 import Incentives from '../../components/Incentives/Incentives';
 import OurMattress from '../../components/OurMattress/OurMattress';
 import Vendors from '../../components/OurMattress/Vendors';
@@ -14,7 +14,7 @@ import Footer from '../../components/Footer/Footer';
 function HomePage() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Banner />
       <CTA />
       <Incentives />

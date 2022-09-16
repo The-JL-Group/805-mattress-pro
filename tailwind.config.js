@@ -37,5 +37,10 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
   },
-  plugins: [require('flowbite/plugin'), require('tw-elements/dist/plugin')],
+  plugins: [
+    require('flowbite/plugin'), 
+    require('tw-elements/dist/plugin'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
+  ], 
 };
