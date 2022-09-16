@@ -10,7 +10,7 @@ import Aos from 'aos';
 import info1 from '../../assets/images/info-1.png';
 import info2 from '../../assets/images/info-2.png';
 import info3 from '../../assets/images/info-3.png';
-import info6 from '../../assets/images/info-6.jpg';
+import info4 from '../../assets/images/info-4.png';
 
 function Info() {
   useEffect(() => {
@@ -23,7 +23,10 @@ function Info() {
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            So, Why is 805 Mattress Pros <span className='text-newRed'>The Best Mattress Store in Simi Valley?</span>
+            So, Why is 805 Mattress Pros{' '}
+            <span className="text-newRed">
+              The Best Mattress Store in Simi Valley?
+            </span>
           </h2>
           <p className="mb-4">
             Because we understand that everyone is different when it comes to
@@ -60,7 +63,10 @@ function Info() {
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-column-start lg:py-16 lg:px-6">
         <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Online vs. In-Store: What's the <span className='text-newRed'>Best Place to Buy a New Mattress?</span>
+            Online vs. In-Store: What's the{' '}
+            <span className="text-newRed">
+              Best Place to Buy a New Mattress?
+            </span>
           </h2>
           <p className="mb-4">
             We may be a bit biased here, but nothing beats actually going to a
@@ -131,7 +137,7 @@ function Info() {
           <img
             data-aos="fade-left"
             className="w-3/4 h-72 rounded-lg object-cover"
-            src={info6}
+            src={info4}
             alt="office content 1"
           ></img>
         </div>

@@ -272,10 +272,7 @@ function Footer() {
 
         <div className="text-center p-3 md:p-6 bg-newRed">
           <span>© 2022 Copyright: </span>
-          <a
-            className="text-white font-semibold"
-            href="https://tailwind-elements.com/"
-          >
+          <a className="text-white font-semibold" href="/">
             805 Mattress Pro
           </a>
         </div>

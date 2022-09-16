@@ -5,12 +5,12 @@ import './Banner.css';
 import 'aos/dist/aos.css';
 
 // Imports
-import { Fragment, useState } from 'react'
-import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
+import { Fragment, useState } from 'react';
+import { Dialog, Popover, Tab, Transition } from '@headlessui/react';
 
 import Aos from 'aos';
 
-import { BsPhoneVibrate } from 'react-icons/bs'
+import { BsPhoneVibrate } from 'react-icons/bs';
 import { CgMenuRound } from 'react-icons/cg';
 import { AiFillCloseCircle } from 'react-icons/ai';
 
@@ -25,7 +25,6 @@ import mattresses16 from '../../../assets/images/mattresses-16.jpg';
 import call from '../../../assets/images/call.jpg';
 
 // Logo
-import logo from '../../../assets/logo/logo.png';
 import logo2 from '../../../assets/logo/805MattressPro.png';
 
 const navigation = {
@@ -58,7 +57,6 @@ const navigation = {
         },
       ],
     },
-    
   ],
   pages: [
     { name: 'Home', href: '/' },
@@ -66,14 +64,13 @@ const navigation = {
     { name: 'Meet Steve', href: '/meet-steve' },
     { name: 'Contact', href: '/contact' },
   ],
-}
+};
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(' ');
 }
 
 function Banner() {
-
   // Animations
   useEffect(() => {
     // 2 second animation completeness
@@ -81,13 +78,17 @@ function Banner() {
   }, []);
 
   // Nav Toggle
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div className="bg-white">
       {/* Mobile menu */}
       <Transition.Root show={mobileMenuOpen} as={Fragment}>
-        <Dialog as="div" className="fixed inset-0 flex z-40 lg:hidden" onClose={setMobileMenuOpen}>
+        <Dialog
+          as="div"
+          className="fixed inset-0 flex z-40 lg:hidden"
+          onClose={setMobileMenuOpen}
+        >
           <Transition.Child
             as={Fragment}
             enter="transition-opacity ease-linear duration-300"
@@ -117,7 +118,11 @@ function Banner() {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   <span className="sr-only">Close menu</span>
-                  <AiFillCloseCircle className="h-10 w-10" aria-hidden="true" color="black"/>
+                  <AiFillCloseCircle
+                    className="h-10 w-10"
+                    aria-hidden="true"
+                    color="black"
+                  />
                 </button>
               </div>
 
@@ -130,7 +135,9 @@ function Banner() {
                         key={category.name}
                         className={({ selected }) =>
                           classNames(
-                            selected ? 'text-black border-newRed' : 'text-gray-900 border-transparent',
+                            selected
+                              ? 'text-black border-newRed'
+                              : 'text-gray-900 border-transparent',
                             'flex-1 whitespace-nowrap py-4 px-1 border-b-2 text-base font-medium'
                           )
                         }
@@ -142,18 +149,34 @@ function Banner() {
                 </div>
                 <Tab.Panels as={Fragment}>
                   {navigation.categories.map((category) => (
-                    <Tab.Panel key={category.name} className="px-4 py-6 space-y-12">
+                    <Tab.Panel
+                      key={category.name}
+                      className="px-4 py-6 space-y-12"
+                    >
                       <div className="grid grid-cols-2 gap-x-4 gap-y-10">
                         {category.featured.map((item) => (
                           <div key={item.name} className="group relative">
                             <div className="aspect-w-1 aspect-h-1 rounded-md bg-gray-100 overflow-hidden group-hover:opacity-75">
-                              <img src={item.imageSrc} alt={item.imageAlt} className="object-center object-cover" />
+                              <img
+                                src={item.imageSrc}
+                                alt={item.imageAlt}
+                                className="object-center object-cover"
+                              />
                             </div>
-                            <a href={item.href} className="mt-6 block text-sm font-medium text-gray-900">
-                              <span className="absolute z-10 inset-0" aria-hidden="true" />
+                            <a
+                              href={item.href}
+                              className="mt-6 block text-sm font-medium text-gray-900"
+                            >
+                              <span
+                                className="absolute z-10 inset-0"
+                                aria-hidden="true"
+                              />
                               {item.name}
                             </a>
-                            <p aria-hidden="true" className="mt-1 text-sm text-newRed">
+                            <p
+                              aria-hidden="true"
+                              className="mt-1 text-sm text-newRed"
+                            >
                               Check it out
                             </p>
                           </div>
@@ -165,20 +188,20 @@ function Banner() {
               </Tab.Group>
 
               <div className="border-t border-gray-200 py-6 px-4 space-y-6">
-                
-                  <div  className="flow-root">
-
+                <div className="flow-root">
                   {/* Copyright */}
-                  &#169; Copyright <span className='text-newRed'>805 Mattress Pro</span>
-                  </div>
-          
+                  &#169; Copyright{' '}
+                  <span className="text-newRed">805 Mattress Pro</span>
+                </div>
               </div>
 
               <div className="border-t border-gray-200 py-6 px-4 space-y-6">
-
-                
-                <a href="https://the-jl-group-portfolio.vercel.app/" className="-m-2 p-2 block font-medium text-gray-900">
-                  Website built by the <span className='text-newRed underline'>&#169;JLGroup</span>
+                <a
+                  href="https://the-jl-group-portfolio.vercel.app/"
+                  className="-m-2 p-2 block font-medium text-gray-900"
+                >
+                  Website built by the{' '}
+                  <span className="text-newRed underline">&#169;JLGroup</span>
                 </a>
               </div>
             </div>
@@ -196,12 +219,14 @@ function Banner() {
             className="w-full h-full object-center object-cover"
           />
         </div>
-        <div aria-hidden="true" className="absolute inset-0 bg-gray-900 opacity-50" />
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-gray-900 opacity-50"
+        />
 
         {/* Navigation */}
         <header className="relative z-10">
           <nav aria-label="Top">
-
             {/* TopNav */}
             <TopNav />
 
@@ -212,13 +237,9 @@ function Banner() {
                   <div className="h-16 flex items-center justify-between">
                     {/* Logo (lg+) */}
                     <div className="hidden lg:flex-1 lg:flex lg:items-center">
-                      <a href="#">
+                      <a href="/">
                         <span className="sr-only">Workflow</span>
-                        <img
-                          className="h-10 w-auto"
-                          src={logo2}
-                          alt=""
-                        />
+                        <img className="h-10 w-auto" src={logo2} alt="logo" />
                       </a>
                     </div>
 
@@ -253,14 +274,19 @@ function Banner() {
                                     leaveTo="opacity-0"
                                   >
                                     <Popover.Panel className="absolute top-full inset-x-0 text-sm text-gray-500">
-                                      
-                                      <div className="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true" />
+                                      <div
+                                        className="absolute inset-0 top-1/2 bg-white shadow"
+                                        aria-hidden="true"
+                                      />
 
                                       <div className="relative bg-white">
                                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                                           <div className="grid grid-cols-4 gap-y-10 gap-x-8 py-16">
                                             {category.featured.map((item) => (
-                                              <div key={item.name} className="group relative">
+                                              <div
+                                                key={item.name}
+                                                className="group relative"
+                                              >
                                                 <div className="aspect-w-1 aspect-h-1 rounded-md bg-gray-100 overflow-hidden group-hover:opacity-75">
                                                   <img
                                                     src={item.imageSrc}
@@ -268,11 +294,20 @@ function Banner() {
                                                     className="object-center object-cover"
                                                   />
                                                 </div>
-                                                <a href={item.href} className="mt-4 block font-medium text-gray-900">
-                                                  <span className="absolute z-10 inset-0" aria-hidden="true" />
+                                                <a
+                                                  href={item.href}
+                                                  className="mt-4 block font-medium text-gray-900"
+                                                >
+                                                  <span
+                                                    className="absolute z-10 inset-0"
+                                                    aria-hidden="true"
+                                                  />
                                                   {item.name}
                                                 </a>
-                                                <p aria-hidden="true" className="mt-1">
+                                                <p
+                                                  aria-hidden="true"
+                                                  className="mt-1"
+                                                >
                                                   Shop now
                                                 </p>
                                               </div>
@@ -302,32 +337,41 @@ function Banner() {
 
                     {/* Mobile menu and search (lg-) */}
                     <div className="flex-1 flex items-center lg:hidden">
-                      <button type="button" className="-ml-2 p-2 text-white" onClick={() => setMobileMenuOpen(true)}>
+                      <button
+                        type="button"
+                        className="-ml-2 p-2 text-white"
+                        onClick={() => setMobileMenuOpen(true)}
+                      >
                         <span className="sr-only">Open menu</span>
 
                         {/* MOBILE OPEN ICON */}
-                        <CgMenuRound className="h-12 w-8" aria-hidden="true" color="black" />
+                        <CgMenuRound
+                          className="h-12 w-8"
+                          aria-hidden="true"
+                          color="black"
+                        />
                       </button>
                     </div>
 
                     {/* Logo (lg-) */}
                     <a href="/" className="lg:hidden">
                       <span className="sr-only">Workflow</span>
-                      <img
-                        src={logo2}
-                        alt=""
-                        className="h-9 w-auto"
-                      />
+                      <img src={logo2} alt="logo" className="h-9 w-auto" />
                     </a>
 
                     {/* Phone # */}
                     <div className="flex-1 flex items-center justify-end">
-                      <a href="tel:805-522-1344" className="hidden text-sm font-medium text-black lg:block hover:text-newRed">
-                      <div className='flex'>
-                        <BsPhoneVibrate size="1.5rem" className='h-11'/>
-                        <p className="text-lg px-5 py-2.5 text-center mr-3 md:mr-0">805-522-1344</p>
-                      </div>
-                      </a>     
+                      <a
+                        href="tel:805-522-1344"
+                        className="hidden text-sm font-medium text-black lg:block hover:text-newRed"
+                      >
+                        <div className="flex">
+                          <BsPhoneVibrate size="1.5rem" className="h-11" />
+                          <p className="text-lg px-5 py-2.5 text-center mr-3 md:mr-0">
+                            805-522-1344
+                          </p>
+                        </div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -336,10 +380,16 @@ function Banner() {
           </nav>
         </header>
 
-        <div data-aos="fade-up" className="relative max-w-3xl mx-auto py-32 px-6 flex flex-col items-center text-center sm:py-56 lg:px-0">
-          <h1 className="text-4xl font-extrabold tracking-tight text-white lg:text-6xl">The Best Mattress Store in Simi Valley</h1>
+        <div
+          data-aos="fade-up"
+          className="relative max-w-3xl mx-auto py-32 px-6 flex flex-col items-center text-center sm:py-56 lg:px-0"
+        >
+          <h1 className="text-4xl font-extrabold tracking-tight text-white lg:text-6xl">
+            The Best Mattress Store in Simi Valley
+          </h1>
           <p className="mt-4 text-xl text-white">
-            In all of Simi Valley and Thousand Oaks, you won't find better service or care on your next mattress!
+            In all of Simi Valley and Thousand Oaks, you won't find better
+            service or care on your next mattress!
           </p>
           <a
             href="/"
@@ -349,9 +399,8 @@ function Banner() {
           </a>
         </div>
       </div>
-      
     </div>
-  )
+  );
 }
 
 export default Banner;

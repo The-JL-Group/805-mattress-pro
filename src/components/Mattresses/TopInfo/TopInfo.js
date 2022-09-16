@@ -17,7 +17,7 @@ function TopInfo() {
   }, []);
 
   return (
-    <div className="bg-gray-50" data-aos="fade-up">
+    <div data-aos="fade-up">
       <div className="max-w-2xl mx-auto px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
         <section aria-labelledby="details-heading">
           <div className="flex flex-col items-center text-center">
@@ -25,7 +25,7 @@ function TopInfo() {
               id="details-heading"
               className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
             >
-              Our Mattresses <span className='text-newRed'>Can't Be Beat</span>
+              Our Mattresses <span className="text-newRed">Can't Be Beat</span>
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-600">
               Our walk-in and customer-friendly environment just aren't enough.
