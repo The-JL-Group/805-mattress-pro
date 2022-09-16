@@ -12,7 +12,6 @@ import mattressQuality from '../../assets/images/mattress-quality.png';
 import mattressBest from '../../assets/images/mattress-best.png';
 
 function OurMattress() {
-
   useEffect(() => {
     // 2 second animation completeness
     Aos.init({ duration: 1500 });
@@ -37,11 +36,9 @@ function OurMattress() {
         <div>
           <div className="grid gap-5 place-content-center md:grid-cols-3">
             {/* Mattress Discount Card */}
-            <div 
-              className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
-              >
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
               <img
-                className="rounded-t-lg bg-newRed"
+                className="rounded-t-lg h-2/3 w-full"
                 src={mattressDiscount}
                 alt="Mattress Discount"
               />
@@ -62,11 +59,9 @@ function OurMattress() {
             </div>
 
             {/* Mattress Quality Card */}
-            <div 
-              className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
-            >
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
               <img
-                className="rounded-t-lg bg-newRed"
+                className="rounded-t-lg h-2/3 w-full"
                 src={mattressQuality}
                 alt="Mattress Quality"
               />
@@ -90,11 +85,9 @@ function OurMattress() {
             </div>
 
             {/* Mattress Best Card */}
-            <div 
-              className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
-              >
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
               <img
-                className="rounded-t-lg bg-newRed"
+                className="rounded-t-lg h-2/3 w-full"
                 src={mattressBest}
                 alt="Mattress Best"
               />
