@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // Stylesheets
 import 'aos/dist/aos.css';
+
+// Imports
+import Aos from 'aos';
 
 // Components
 import { incentives } from './data';
 
 function Incentives() {
+
+   // Animations
+   useEffect(() => {
+    // 2 second animation completeness
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
     <div>
       <div className="bg-white">
@@ -20,7 +30,7 @@ function Incentives() {
               </div>
               <div className="mt-12 max-w-sm mx-auto grid grid-cols-1 gap-y-10 gap-x-8 sm:max-w-none lg:grid-cols-3">
                 {incentives.map((items, link) => (
-                  <div className="text-center sm:flex sm:text-left lg:block lg:text-center">
+                  <div className="text-center sm:flex sm:text-left lg:block lg:text-center" data-aos="fade-right">
                     <div className="sm:flex-shrink-0">
                       <div className="flow-root">
                         {/* Incentive Icons */}

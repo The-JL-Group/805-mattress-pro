@@ -1,5 +1,5 @@
 // Components
-import NavBar from '../../components/Navbar/Navbar';
+import RestBanner from '../../components/Banner/RestBanners/RestBanner';
 import Contact from '../../components/Contact/Contact';
 import CTA from '../../components/CTA/CTA';
 import Footer from '../../components/Footer/Footer';
@@ -7,7 +7,7 @@ import Footer from '../../components/Footer/Footer';
 function ContactPage() {
   return (
     <div>
-      <NavBar />
+      <RestBanner />
       <CTA />
       <Contact />
       <Footer />
