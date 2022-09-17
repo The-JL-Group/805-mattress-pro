@@ -388,8 +388,7 @@ function Banner() {
             The Best Mattress Store in Simi Valley
           </h1>
           <p className="mt-4 text-xl text-white">
-            In all of Simi Valley and Thousand Oaks, you won't find better
-            service or care on your next mattress!
+          805 Mattress Pros has 30 plus years in the mattress industry! We are truly untouchable in our product & our service ! Respect & kindness IS A MUST ! 
           </p>
           <a
             href="/"
