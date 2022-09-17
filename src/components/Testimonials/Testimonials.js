@@ -9,8 +9,8 @@ function Testimonials() {
         <h2 className="mb-5 max-w-2xl mx-auto font-heading font-bold text-center text-4xl text-gray-900">
           A Community of Happy Customers!
         </h2>
-        <p className="mb-10 text-base max-w-md mx-auto text-center text-gray-600">
-          We have an entire community of happy customers and a 5 star rating on
+        <p className="mb-10 text-base max-w-xl mx-auto text-center text-gray-600">
+          We have an entire community of happy customers and a <span className='text-xl text-amber-500'>5 star</span> rating on
           Yelp. But don't just take it from us!
         </p>
 

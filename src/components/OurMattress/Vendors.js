@@ -21,10 +21,10 @@ function Vendors() {
               </div>
             </div>
 
-            <div className="sm:flex-shrink-0">
+            <div className="sm:flex-shrink-1">
               <div className="flow-root">
                 <img
-                  className="h-20 mx-auto"
+                  className="h-14 mx-auto lg:h-10 lg:mt-5"
                   src={vendor2}
                   alt="vendor 2"
                 ></img>
