@@ -7,10 +7,9 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 
 // Images
-import info1 from '../../assets/images/info-1.png';
+import info1 from '../../assets/images/info-1.jpg';
 import info2 from '../../assets/images/info-2.png';
 import info3 from '../../assets/images/info-3.png';
-import info4 from '../../assets/images/info-4.png';
 
 function Info() {
   useEffect(() => {
@@ -44,19 +43,14 @@ function Info() {
             those other mattress stores do.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 mt-8">
+        <div className="grid grid-cols-1 gap-4 mt-8">
           <img
             data-aos="fade-down"
             className="w-full rounded-lg"
             src={info1}
             alt=""
           ></img>
-          <img
-            data-aos="fade-up"
-            className="mt-4 w-full lg:mt-10 rounded-lg"
-            src={info2}
-            alt=""
-          ></img>
+          
         </div>
       </div>
 
@@ -90,8 +84,8 @@ function Info() {
         <div className=" gap-4 mt-4 w-full ">
           <img
             data-aos="fade-right"
-            className="w-5/6 h-48 rounded-lg object-cover"
-            src={info3}
+            className="w-5/6 h-48 md:w-9/12 md:h-60 rounded-lg object-cover"
+            src={info2}
             alt="office content 1"
           ></img>
         </div>
@@ -136,8 +130,8 @@ function Info() {
         <div className="mt-4 w-full flex items-center justify-center">
           <img
             data-aos="fade-left"
-            className="w-3/4 h-72 rounded-lg object-cover"
-            src={info4}
+            className="w-3/4 h-72 md:w-3/5 md:h-80 lg:w-2/4 rounded-lg object-cover"
+            src={info3}
             alt="office content 1"
           ></img>
         </div>
