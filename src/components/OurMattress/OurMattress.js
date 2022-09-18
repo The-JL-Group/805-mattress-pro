@@ -38,7 +38,7 @@ function OurMattress() {
             {/* Mattress Discount Card */}
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
               <img
-                className="rounded-t-lg h-2/3 w-full"
+                className="rounded-t-lg"
                 src={mattressDiscount}
                 alt="Mattress Discount"
               />
@@ -54,14 +54,14 @@ function OurMattress() {
                 <p className="mb-3 font-normal text-gray-700">
                   &#8594; Budget Friendly
                 </p>
-                <p className="mb-3 font-bold text-gray-700">$150-$999</p>
+                <p className="mb-3 font-bold text-gray-700">$199-$499</p>
               </div>
             </div>
 
             {/* Mattress Quality Card */}
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
               <img
-                className="rounded-t-lg h-2/3 w-full"
+                className="rounded-t-lg"
                 src={mattressQuality}
                 alt="Mattress Quality"
               />
@@ -80,21 +80,21 @@ function OurMattress() {
                 <p className="mb-3 font-normal text-gray-700 ">
                   &#8594; Ideal For Guest Bedrooms
                 </p>
-                <p className="mb-3 font-bold text-gray-700">$700-$1999</p>
+                <p className="mb-3 font-bold text-gray-700">$599-$999</p>
               </div>
             </div>
 
             {/* Mattress Best Card */}
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
               <img
-                className="rounded-t-lg h-2/3 w-full"
+                className="rounded-t-lg"
                 src={mattressBest}
                 alt="Mattress Best"
               />
 
               <div className="p-5">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-                  Best Mattress
+                  High End Mattress
                 </h5>
 
                 <p className=" font-normal text-gray-700 ">
@@ -106,7 +106,7 @@ function OurMattress() {
                 <p className="mb-3 font-normal text-gray-700 ">
                   &#8594; Ideal For Master Bedrooms
                 </p>
-                <p className="mb-3 font-bold text-gray-700 ">$900-$2749</p>
+                <p className="mb-3 font-bold text-gray-700 ">$1199-$1699</p>
               </div>
             </div>
           </div>
