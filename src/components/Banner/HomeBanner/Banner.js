@@ -388,7 +388,9 @@ function Banner() {
             The Best Mattress Store in Simi Valley
           </h1>
           <p className="mt-4 text-xl text-white">
-          805 Mattress Pros has 30 plus years of experience in the mattress industry! We are truly untouchable in our product & our service ! Respect & kindness IS A MUST ! 
+            805 Mattress Pros has 30 plus years of experience in the mattress
+            industry! We are truly untouchable in our product & our service!
+            Respect & kindness IS A MUST!
           </p>
           <a
             href="/"
