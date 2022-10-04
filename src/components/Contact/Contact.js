@@ -65,10 +65,11 @@ function Contact() {
                   EMAIL
                 </h2>
                 <a
-                  href="mailto:1mattresspros@gmail.com"
+                  href="mailto:steve805mattresspro@gmail.com
+                  "
                   className="text-newBlue leading-relaxed"
                 >
-                  1mattresspros@gmail.com
+                  steve805mattresspro@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
