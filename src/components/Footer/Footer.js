@@ -62,7 +62,7 @@ function Footer() {
 
             {/* Google Review */}
             <a
-              href="https://www.google.com/search?rlz=1C5CHFA_enUS999US999&sxsrf=ALiCzsa5nA8ZqS9-lN499GmKLRAfI5BfcQ:1662505286200&q=805+mattress+pros&spell=1&sa=X&ved=2ahUKEwiImpXoooH6AhUkmWoFHbyhBvgQBSgAegQIARA2&cshid=1662505289394074&biw=1920&bih=944&dpr=1#lrd=0x80e82e948da55b05:0xe2af8b59d1548153,1,,,"
+              href="https://www.google.com/search?q=805+mattress+pro&rlz=1C5CHFA_enUS999US999&biw=1792&bih=887&sxsrf=ALiCzsZFf_DmSK-9QjeuMgsB-deyQlkefA%3A1664849841028&ei=sZc7Y8aoAfSPwbkPt_aj4Ag&ved=0ahUKEwiGxYP7wMX6AhX0RzABHTf7CIwQ4dUDCA4&uact=5&oq=805+mattress+pro&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgjECcyCwguEIAEEMcBEK8BMgYIABAeEBYyCQgAEB4QyQMQFjIFCAAQhgMyBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwAzoNCAAQRxDWBBCwAxDJA0oECEEYAEoECEYYAFD-AVj-AWD1A2gBcAF4AIABYogBYpIBATGYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x80e82e948da55b05:0xe2af8b59d1548153,1,,,"
               target="_blank"
               rel="noreferrer"
               className="mr-6 text-white"

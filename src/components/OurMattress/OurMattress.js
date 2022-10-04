@@ -26,7 +26,7 @@ function OurMattress() {
             Discount Mattress to Fit Any Budget
           </h2>
           <p className="mb-4">
-            805 Mattress Pros carries the highest quality mattresses for any
+            805 Mattress Pro carries the highest quality mattresses for any
             budget. We offer the most competitive discount wholesale prices in
             the Ventura County area.
           </p>

@@ -22,7 +22,7 @@ function Info() {
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            So, Why is 805 Mattress Pros{' '}
+            So, Why is 805 Mattress Pro{' '}
             <span className="text-newRed">
               The Best Mattress Store in Simi Valley?
             </span>
@@ -50,7 +50,6 @@ function Info() {
             src={info1}
             alt=""
           ></img>
-          
         </div>
       </div>
 
@@ -66,7 +65,7 @@ function Info() {
             We may be a bit biased here, but nothing beats actually going to a
             local mattress store and trying out a new mattress. To be honest, we
             don't even know why online mattress shops exist. You wouldn't
-            believe how many customers come into 805 Mattress Pros with the same
+            believe how many customers come into 805 Mattress Pro with the same
             story:
           </p>
           <p className="mb-4">
@@ -111,7 +110,7 @@ function Info() {
             <span className="font-bold text-newRed">Reputation.</span>
           </p>
           <p className="mb-4">
-            Here at 805 Mattress Pros, our reputation is everything. We only
+            Here at 805 Mattress Pro, our reputation is everything. We only
             carry the
             <a href="/mattresses">
               <span className="font-bold text-newBlue hover:underline">
@@ -138,8 +137,8 @@ function Info() {
         <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400 mt-5">
           <p className="mb-4">
             So don't stay up too late reading about mattresses! Stop by 805
-            Mattress Pros today to try out a brand new mattress - it could
-            change your life!
+            Mattress Pro today to try out a brand new mattress - it could change
+            your life!
           </p>
         </div>
       </div>

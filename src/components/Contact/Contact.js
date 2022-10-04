@@ -24,7 +24,7 @@ function Contact() {
             id="details-heading"
             className="text-3xl font-extrabold tracking-tight text-newRed sm:text-4xl"
           >
-            Contact 805 Mattress Pros
+            Contact 805 Mattress Pro
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-gray-600">
             Need info on a particular brand of mattress? Looking for something
@@ -51,11 +51,14 @@ function Contact() {
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   ADDRESS
                 </h2>
-                <a 
+                <a
                   href="https://www.google.com/maps/place/805+Mattress+Pros/@34.2784585,-118.7964324,17z/data=!3m1!4b1!4m5!3m4!1s0x80e82e948da55b05:0xe2af8b59d1548153!8m2!3d34.2784585!4d-118.7942437"
                   target="_blank"
                   rel="noreferrer"
-                  className="mt-1 text-newBlue">185 E Easy St, Simi Valley, CA 93065</a>
+                  className="mt-1 text-newBlue"
+                >
+                  185 E Easy St, Simi Valley, CA 93065
+                </a>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
@@ -70,9 +73,12 @@ function Contact() {
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <a 
+                <a
                   href="tel:805-522-1344"
-                  className="leading-relaxed text-newBlue">805-522-1344</a>
+                  className="leading-relaxed text-newBlue"
+                >
+                  805-522-1344
+                </a>
               </div>
             </div>
           </div>

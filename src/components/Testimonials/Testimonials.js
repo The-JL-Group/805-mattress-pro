@@ -10,8 +10,9 @@ function Testimonials() {
           A Community of Happy Customers!
         </h2>
         <p className="mb-10 text-base max-w-xl mx-auto text-center text-gray-600">
-          We have an entire community of happy customers and a <span className='text-xl text-amber-500'>5 star</span> rating on
-          Yelp. But don't just take it from us!
+          We have an entire community of happy customers and a{' '}
+          <span className="text-xl text-amber-500">5 star</span> rating on Yelp.
+          But don't just take it from us!
         </p>
 
         <Ratings />
@@ -57,7 +58,7 @@ function Testimonials() {
                   &ldquo;I recently purchased a mattress from this
                   establishment. The owner was a great help to me and I felt
                   well informed. The price was reasonable and I will definitely
-                  come back to 805 Mattress Pros for my next mattress
+                  come back to 805 Mattress Pro for my next mattress
                   purchase.&rdquo;
                 </p>
                 <h3 className="mb-1.5 font-heading font-bold text-lg text-gray-900">

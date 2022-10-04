@@ -76,7 +76,9 @@ function Message() {
               <div className="relative px-8">
                 <blockquote className="mt-8">
                   <div className="relative text-lg font-medium text-white md:flex-grow">
-                    <p className="relative">"I love what I do because I love this community."</p>
+                    <p className="relative">
+                      "I love what I do because I love this community."
+                    </p>
                   </div>
 
                   <footer className="mt-4">
@@ -100,7 +102,7 @@ function Message() {
           {/* Content area */}
           <div className="pt-12 sm:pt-16 lg:pt-20">
             <h2 className="text-3xl text-newRed font-extrabold tracking-tight sm:text-4xl">
-              About 805 Mattress Pros
+              About 805 Mattress Pro
             </h2>
             <div className="mt-6 text-gray-500 space-y-6">
               <p className="text-lg">
@@ -123,7 +125,7 @@ function Message() {
               </p>
               <p className="text-base leading-7">
                 Simple as that. If that works for you, then stop by my shop, 805
-                Mattress Pros, in Simi Valley, CA and get yourself a pretty
+                Mattress Pro, in Simi Valley, CA and get yourself a pretty
                 awesome mattress and an even better night's sleep.
               </p>
               <p className="text-base leading-7">Cheers,</p>
@@ -149,7 +151,10 @@ function Message() {
               ))}
             </dl>
             <div className="mt-10">
-              <a href="/mattresses" className="text-base font-medium text-newRed">
+              <a
+                href="/mattresses"
+                className="text-base font-medium text-newRed"
+              >
                 {' '}
                 Learn more about our comfortable mattresses{' '}
                 <span aria-hidden="true">&rarr;</span>{' '}

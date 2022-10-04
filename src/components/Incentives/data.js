@@ -7,7 +7,7 @@ export const incentives = [
   {
     icon: <BsPatchCheck size={'4rem'} color="white" />,
     title: 'Great Brands',
-    text: '805 Mattress Pros only carries the best quality brands in mattresses.',
+    text: '805 Mattress only carries the best quality brands in mattresses.',
   },
   {
     icon: <IoPricetagsOutline size={'4rem'} color="white" />,
